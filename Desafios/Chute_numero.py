@@ -4,7 +4,6 @@ import os
 
 numerof = random.randint(0,100)
 
-print("_____Chute o numero entre 0 e 100_____")
 op= False
 while op == False:
     print("_____Chute o numero entre 0 e 100_____")
