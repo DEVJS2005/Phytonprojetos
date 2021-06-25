@@ -22,18 +22,18 @@ elif medida2 == 3:
     op2 = "Miligrama"
 #calculo das conversões de KG para as outras medidas
 if medida1 == 1 and medida2 == 2:
-    quant = quant * 10 * 10 * 10
+    quant = quant * 1000
 elif medida1 == 1 and medida2 == 3:
-    quant = quant * 10 * 10 * 10* 10 * 10 * 10
+    quant = quant * 1000000
 #calculo das conversões de G para as outras medidas
 if medida1 == 2 and medida2 == 1:
-    quant = quant / 10 / 10 / 10
+    quant = quant / 1000
 elif medida1 == 2 and medida2 == 3:
-    quant = quant * 10 * 10 * 10
+    quant = quant * 1000
 #calculo das conversões de miligramas para as outras medidas
 if medida1 == 3 and medida2 == 1:
-    quant = quant / 10 / 10 / 10 / 10 / 10 / 10
+    quant = quant / 100000
 elif medida1 == 3 and medida2 == 2:
-    quant = quant / 10 / 10 / 10
+    quant = quant / 1000
 os.system("cls")
 print("{} para {}={}".format(op1,op2,quant))
