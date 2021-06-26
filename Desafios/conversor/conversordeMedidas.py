@@ -10,16 +10,16 @@ quant = float(input("Quanto você quer converter dessa medida:"))
 if medida1 == 1:
     op1 = "KG"
 elif medida1 == 2:
-    op1 = "Grama"
+    op1 = "Gramas"
 elif medida1 == 3:
-    op1 = "Miligrama"
+    op1 = "Miligramas"
 medida2 = int(input("Deseja converter {} para:".format(op1)))
 if medida2 == 1:
     op2 = "KG"
 elif medida2 == 2:
-    op2 = "Grama"
+    op2 = "Gramas"
 elif medida2 == 3:
-    op2 = "Miligrama"
+    op2 = "Miligramas"
 #calculo das conversões de KG para as outras medidas
 if medida1 == 1 and medida2 == 2:
     quant = quant * 1000
@@ -36,4 +36,4 @@ if medida1 == 3 and medida2 == 1:
 elif medida1 == 3 and medida2 == 2:
     quant = quant / 1000
 os.system("cls")
-print("{} para {}={}".format(op1,op2,quant))
+print("{} para {}={} {}".format(op1,op2,quant,op2))
