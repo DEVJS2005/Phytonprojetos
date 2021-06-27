@@ -8,7 +8,7 @@ def mult1000(x):
         msg.setText("Resultado:{}".format(x))
         msg.exec()
 def mult1000000(x):
-        x = x * 1000000
+        x *= 1000000
         msg.setWindowTitle("Conversão realizada!")
         msg.setText("Resultado:{}".format(x))
         msg.exec()
