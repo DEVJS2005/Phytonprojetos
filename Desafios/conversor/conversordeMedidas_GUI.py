@@ -25,7 +25,6 @@ def div1000000(x):
 #Função principal; 
 def funcao_principal():
         linha1 = float(formulario.quant.text())
-        print("Quantidade:{}".format(linha1))
         if formulario.kg.isChecked and formulario.G_check.isChecked():
                 mult1000(linha1)
         elif formulario.kg.isChecked and formulario.mg_check.isChecked():
